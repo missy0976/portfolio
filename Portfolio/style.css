@@ -1,0 +1,172 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+h1{
+	color: #BC22C9;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+ h2{
+ 	color: #241BD1;
+ 	font-size: 20px;
+ 	margin-top: 0;
+ } 
+
+h3{
+	text-align: center;
+	font-size: 28px;
+	font-weight: normal;
+	margin-top: 100px;
+}
+
+h4{
+	text-align: center;
+	font-size: 24px;
+}
+
+p{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	font-size: 12px;
+	width: 100px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	text-align: center;
+	margin-left: 30px;
+
+}
+
+.about-container {
+	background: url('splash.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.bio{
+	color: blue;
+	font-size: 14px;
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: rgb(124, 146, 247);
+	margin-top: 40px;
+}
+
+.yellow {
+	border-top: 5px dotted #F5A623;
+	width: 250px;
+	border-bottom: none;
+	border-right: none;
+}
+
+
+
+.about {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.grey {
+	height: 3px;
+	background-color: #293FE6;
+	border: none;
+	width: 50px;
+}
+
+.box {
+	float: left;
+	
+	width: 42.5%;
+	margin-left: 5%;
+	margin-top: 80px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.skills-and-tools{
+	max-width: 400px;
+	text-align: center;
+	margin: 40px auto;
+
+}
+
+.contact-me{
+	height: 350px;
+	background-color: #202020;
+	padding-top: 30px;
+
+}
+
+.contact-headline{
+	color: white;
+}
+
+.contact-info{
+	color: white;
+	font-size: 13px;
+
+}
+.contact-link{
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+}
+.nav-link{
+	color: white;
+	text-decoration: none;
+}
+
+.hire-me{
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+	text-decoration: none;
+	border-radius: 50%
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
