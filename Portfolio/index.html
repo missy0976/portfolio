@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<!-- Coded by M Lowrie 2018 -->
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700,700i" rel="stylesheet">
+
+		  <link
+    rel="stylesheet"
+    href="prism-atom-dark.css"
+    type="text/css"
+    media="screen"
+  />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="prism.js"></script>
+  <script type="text/javascript" src="prism.ruby.js"></script>
+
+  <title>Melissa Lowrie</title>
+  <meta  name="description" content="Melissa Lowrie is a aspiring developer and experienced IT generalist with over 10 years of Information Technology field support and logistics managment experience.">
+
+	</head>
+
+	<body>
+		<div class="about-container">
+			<ul>
+				<li><a href="#about" class="nav-link">About</a></li>
+				<li><a href="#code-samples" class="nav-link">Code Samples</a></li>
+				<li><a href="#skills-and-tools" class="nav-link">Skills &amp; Tools</a></li>
+				<li class="hire-me"><a href="#hire-me" class="nav-link">Hire Me</a></li>
+			</ul>
+			<div class="about">
+				<img src="mlowrie.jpg" class="me" alt="Melissa Lowrie"/> 
+				<h1 id="about">Melissa Lowrie</h1>
+				<h2>IT Specialist</h2>
+				<hr class="grey" />
+				<p class="bio">
+			Melissa Lowrie is a aspiring developer and experienced IT generalist with over 10 years of Information Technology field support and logistics managment experience. Security+, Linux+, VMWare Foundations
+				</p>
+			</div>
+		</div>
+		<h3 id="code-samples">Code Snippets</h3>
+		<hr class="yellow">
+
+		<div class="box">
+		<h4>Temperature Conversion</h4>
+		<p>
+			This ruby program converts the user input of degrees Celsius to degrees Fahrenheit.
+		</p>
+		 </div>
+
+		 <div class="box">
+<pre><code class="language-ruby">
+def faren(n)
+    return n * 1.8 + 32
+end
+
+puts &quot;Enter tmperature in Celcius:&quot;
+val1 = gets.chomp .to_f
+
+puts &quot;The temperature in Fahrenheit is: #{faren(val1)} degrees&quot;</code></pre>
+
+		 </div>
+		 <br class="clear" />
+
+		 <div class="box">
+<pre><code class="language-ruby">
+puts &quot; pick a number?&quot;
+
+number= gets.to_i
+ordinal = number % 10
+
+
+if ordinal == 1 &amp;&amp; number != 11
+    puts &quot;Thats the #{number}st item&quot;
+    
+    elsif ordinal == 2 &amp;&amp; number != 12
+    puts &quot;That is the #{number}nd item&quot;
+    
+    elsif ordinal == 3 &amp;&amp; number != 13
+    puts &quot;Thats the #{number}rd item&quot;
+    
+    else 
+    puts &quot;thats the #{number}th item&quot;
+    
+end
+
+</code></pre>
+
+		 </div>
+
+		 <div class="box">
+		 	<h4>Ordinal Challenge</h4>
+		 	<p>
+		 		This ruby program will convert a plain number to the ordinal of the number. For example: if the user enters 2 it will desplay 2nd, if the user enters 3 it will display 3rd, and so on.
+		 	</p>
+		 </div>
+		 <br class="clear" />
+
+		 <div class="box">
+		<h4>Foobar</h4>
+		<p>
+			This ruby program is an adaptation of the classic interview problem that displays sequences of the Foobar pattern.
+		</p>
+		 </div>
+
+		 <div class="box">
+<pre><code class="language-ruby">
+puts &quot;How many items do you wish to list?&quot;
+items = gets.chomp.to_i
+
+n=0
+foobar_array = []
+(1..items).each do |n|
+
+
+if n % 3 == 0 &amp;&amp; n % 5 !=0
+        puts &quot;foo&quot;
+    elsif n % 5 == 0 &amp;&amp; n % 3 != 0
+        puts &quot;bar&quot;
+    elsif n % 3 == 0 &amp;&amp; n % 5 == 0
+        puts &quot;foobar&quot;
+    else
+        puts &quot;#{n}&quot;
+    end
+   
+end
+    
+puts foobar_array
+</code></pre>
+		 </div>
+		 <br class="clear" />
+
+		 <h3 id="web-apps">Web Apps</h3>
+		 <hr class="yellow"/>
+		 <div class="box">Left
+		 </div>
+		 <div class="box">Right</div>
+
+		 <br class="clear"/>
+
+		 <h3 id="skills-and-tools">Skills &amp; Tools</h3>
+		 <hr class="yellow" />
+		 <p class="skills-and-tools">
+		 	Melissa is working on increasing her comfort level in the following tools and languages to lead to expertise.
+
+		 	HTML, CSS, JS, Ruby
+		 </p>
+		 <div class="icons">
+		 	<br class="clear" />
+		 </div>
+		
+		<div class="contact-me">
+			<h3 class="contact-headline" id="hire-me">Contact</h3>
+			<hr class="yellow"/>
+			<p class="contact-info">
+				Currently entertaining new oppurtunites.
+				Please contact me by email:
+			</p>
+
+			<p>
+				<a href="mailto:melissasmith667@yahoo.com" class="contact-link">melissasmith667@yahoo.com
+				</a>
+				<!-- Add font awesome icons -->
+			<p>
+				<a href="https://www.facebook.com/melissasmith667" class="fa fa-facebook" target="_blank"></a>
+				<a href="https://twitter.com/Melissa55443460" class="fa fa-twitter" target="_blank"></a>
+			</p>
+			</p>
+		</div>
+
+
+
+	</body>
+
+</html>
